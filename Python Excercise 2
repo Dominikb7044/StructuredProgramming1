@@ -1,0 +1,8 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+>>> import time
+#Imports time function so I can use my computers current time
+
+>>> print (time.strftime("%H:%M:%S"))
+#Prints current pc's time in 24 hour format outputing hour first, minutes second, and seconds last

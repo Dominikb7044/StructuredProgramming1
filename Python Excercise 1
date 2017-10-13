@@ -1,0 +1,15 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+>>> strin = "Twinkle, twinkle, little star, \n \t How I wonder what you are! \n  \t Up above the world so high, \n \t \t Like a diamond in the sky. \n Twinkle, twinkle, little star, \n \t How I wonder what you are"
+
+#This Inserts twinkle twinkle little star (song) in the proper format
+
+>>> print(strin)
+Twinkle, twinkle, little star, 
+ 	 How I wonder what you are! 
+  	 Up above the world so high, 
+ 	 	 Like a diamond in the sky. 
+ Twinkle, twinkle, little star, 
+ 	 How I wonder what you are
+>>> 

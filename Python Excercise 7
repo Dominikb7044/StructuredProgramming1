@@ -1,0 +1,10 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> color_list = ["Red","Green","White" ,"Black"]
+>>> def first_and_last(sample):
+	return sample[0] + " and " + sample[-1]
+
+>>> first_and_last(color_list)
+'Red and Black'
+>>> 
+>>> """This is a function that will always retrun the last and first thin in a list."""

@@ -1,0 +1,9 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> import math
+>>> def area_of_circle(rad):
+    #Function that defines an area of a circle
+    a = rad**2 * math.pi
+    return a
+
+print(area_of_circle(1))

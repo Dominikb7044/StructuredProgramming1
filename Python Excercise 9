@@ -1,0 +1,11 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> a = int(input("Insert an integer : "))
+Insert an integer : 5
+>>> #Times Integers by themselves
+>>> a1 = int( "%s" % a )
+>>> a2 = int( "%s%s" % (a,a) )
+>>> a3 = int( "%s%s%s" % (a,a,a) )
+>>> print(a1 + a2 +a3)
+615
+>>> 

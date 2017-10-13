@@ -1,0 +1,10 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> first_name = input("Please insert your First Name : ")
+Please insert your First Name : Dominik
+>>> last_name = input("Please insert your Last Name : ")
+Please insert your Last Name : Bier
+>>> print ("Hey, " + last_name + " " + first_name + "!")
+Hey, Bier Dominik!
+>>> # This Program Says Hey,(Last Name)(First Name)!
+
